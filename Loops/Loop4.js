@@ -6,6 +6,6 @@
 console.log(newarr); 
 // Logs: [11, 13, 15, 19
 
-const mynums = [1, 2, 3, 4];
+const mynums = [1, 2, 3, 4,5];
 const total= mynums.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(total); // Logs: 10
